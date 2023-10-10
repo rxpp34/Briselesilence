@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #F28482;
+}
+
+#Main-div
+{
+    width: 100%;
+    height: 100Vh;
+    background-color: #F28482;
+    margin: 0 ; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#Players
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#RoomCode
+{
+    width: 25%;
+    height: auto;
+    margin: auto ; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-size: 2.3rem;
+    color : #F28482 ; 
+    font-weight:bolder;
+}
+
+#StartParty
+{
+    width: 40%;
+    height: auto;
+    margin: auto ; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 450px;
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-size: 2.3rem;
+    color : #F28482 ; 
+
+}
+
+#StartParty button
+{
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    color: #F28482;
+    width: 45%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#X345 
+{
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    color : white ; 
+    font-family: 'Nunito';
+    font-size: 2.3rem;
+    font-weight:bold;
+
+
+}
