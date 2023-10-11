@@ -88,3 +88,21 @@ body {
     transition: s;
 
 }
+
+#x3456
+{
+  width: 70%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ; 
+  align-items: center;
+
+}
+
+#x3456 img
+{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
