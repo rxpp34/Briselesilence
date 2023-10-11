@@ -19,6 +19,11 @@ function App() {
         }
       }
 
+    function GoToRoom() 
+    {
+        navigate("/Room")
+    }
+
     return (
         <div id="Main-div-app">
             <div id="Div-1"> 
@@ -27,7 +32,7 @@ function App() {
 
             <div id="Div-2"> 
                 <h1> Brise le silence </h1>
-               <button onClick={() => {fetchData("setHost")}}> Créer une salle </button>
+               <button onClick={() => {navigate("/Room")}}> Créer une salle </button>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ import PlayerCard from "./Component/PlayerCard";
 
 
 
-function Game() 
+function Undercover() 
 {
     const [NbrVote,setNbrVote]=useState(4)
     const [NbrTotal,setNbrTotal]=useState(10)
@@ -28,4 +28,4 @@ function Game()
     )
 }
 
-export default Game ; 
+export default Undercover ; 
